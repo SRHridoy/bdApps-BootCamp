@@ -16,7 +16,7 @@ ThemeData buildLightTheme() {
       elevation: 0,
       centerTitle: false,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: colorScheme.surfaceContainerHighest,
       elevation: 0,
       shape: RoundedRectangleBorder(
@@ -57,7 +57,7 @@ ThemeData buildDarkTheme() {
       elevation: 0,
       centerTitle: false,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: colorScheme.surfaceContainerHighest,
       elevation: 0,
       shape: RoundedRectangleBorder(
